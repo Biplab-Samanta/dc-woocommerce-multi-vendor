@@ -20,6 +20,7 @@
   padding: 3px;
   border-radius: 3px;
 }
+
 .mvx_fpm_buttons .mvx_fpm_button {
   display: block;
   float: left;
@@ -33,6 +34,7 @@
   color: #fff;
   text-decoration: none;
 }
+
 .mvx_fpm_buttons .mvx_fpm_button_separator {
   color: #fff;
 }
@@ -47,9 +49,10 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 .mvx-report-abouse-wrapper .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -72,11 +75,13 @@
   animation-name: animatetop;
   animation-duration: 0.4s;
 }
+
 .mvx-report-abouse-wrapper .modal-content .modal-header {
   padding: 16px 20px;
   border-bottom: 1px solid #eee;
   position: relative;
 }
+
 .mvx-report-abouse-wrapper .modal-content .modal-footer {
   padding: 10px 20px;
   margin-bottom: 0;
@@ -86,6 +91,7 @@
   z-index: 1;
   position: relative;
 }
+
 .mvx-report-abouse-wrapper .modal-content .modal-body {
   max-height: 52vh;
   overflow: auto;
@@ -93,6 +99,7 @@
   width: 100%;
   padding: 20px 20px 0 20px;
 }
+
 .mvx-report-abouse-wrapper .modal-header button.close {
   padding: 3px;
   cursor: pointer;
@@ -109,11 +116,13 @@
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
 }
+
 .mvx-report-abouse-wrapper .modal-header h2 {
   margin: 0;
   font-size: 18px;
   display: inline-block;
 }
+
 .mvx-report-abouse-wrapper textarea {
   margin: 0 0 6px;
   font-size: 15px;
@@ -121,10 +130,13 @@
   font-weight: normal;
   color: #616161;
 }
+
 .mvx-report-abouse-wrapper .toggle-content {
   padding: 10px;
   border: 1px solid #ddd;
 }
+
 .mvx-report-abouse-wrapper .toggle-content .close {
   display: none;
-}/*# sourceMappingURL=product.css.map */
+}
+/*# sourceMappingURL=product.css.map */
