@@ -8066,6 +8066,8 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .tab-pane {
@@ -8079,4 +8081,22 @@ ul {
   margin-top: 0.5rem;
   padding: 0.35rem 0.75rem;
   border-radius: 0.125rem;
+}
+
+ul.category-filter-nav li a:after {
+  position: absolute;
+  content: "|";
+  top: 0;
+  right: 0;
+  margin: 5px -10px 0 0;
+  color: #696969;
+}
+
+.panel.panel-default {
+  background: #fff;
+  border-radius: 0.25rem;
+}
+
+li.paginate_button.active a {
+  color: #fff;
 }/*# sourceMappingURL=vendor_dashboard.css.map */

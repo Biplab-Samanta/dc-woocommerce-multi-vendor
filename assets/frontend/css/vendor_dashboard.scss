@@ -9086,6 +9086,7 @@ ul {
 //new css added
 .form-group {
     display: flex;
+    flex-wrap: wrap;
 }
 .tab-pane {
     margin: 0.75rem 0 0;
@@ -9099,4 +9100,19 @@ ul {
 		padding: 0.35rem 0.75rem;
 		border-radius: 0.125rem;
 	}
+}
+ul.category-filter-nav li a:after {
+    position: absolute;
+    content: "|";
+    top: 0;
+    right: 0;
+    margin: 5px -10px 0 0;
+    color: #696969;
+}
+.panel.panel-default {
+    background: #fff;
+	border-radius: 0.25rem;
+}
+li.paginate_button.active a {
+    color: #fff;
 }
